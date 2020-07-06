@@ -22,10 +22,12 @@ const SearchBar = ({term, onTermChange, onTermSubmit}) => {
 const styles = StyleSheet.create({
     backgroundStyle: {
         marginTop: 15,
-        backgroundColor: '#F0EEEE',
+        backgroundColor: '#F5EEEE',
         height: 50,
         borderRadius: 5,
         marginHorizontal: 15,
+        marginBottom: 10,
+
         flexDirection: 'row',
         // alignItems: 'center' 不建议，是可点击范围减小了
     },
